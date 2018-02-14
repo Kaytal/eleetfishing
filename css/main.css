@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(../images/bkg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-shadow: 0 0 4px black;
+}
+
+.content p {
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+a, a:visited, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
